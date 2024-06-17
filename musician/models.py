@@ -9,4 +9,4 @@ class musician(models.Model):
     Instrument_Type =models.CharField(max_length=50)
     
     def __str__(self):
-        return self.name
+        return self.first_Name
